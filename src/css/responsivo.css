@@ -1,0 +1,37 @@
+@media screen and (min-width:501px) {
+    .secNatureza-cerejeira {
+        background: url(../imagens/bambooback.jpg) no-repeat center bottom;
+    }
+
+    .secCidade-avenida {
+
+        background: url(../imagens/rua\ back.jpg) no-repeat center bottom;
+        background-size: cover;
+    }
+
+    .secCidade-rua {
+
+        background: url(../imagens/rua\ back.jpg) no-repeat center center;
+        background-size: cover;
+
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .secNatureza,
+    .secCidade {
+        max-width: 900px;
+    }
+
+    .texto {
+        margin-left: 200px;
+        max-width: 500px;
+    }
+
+    .secNatureza-fuji {
+        background: url(../imagens/bambooback.jpg) no-repeat center top;
+    }
+
+}
