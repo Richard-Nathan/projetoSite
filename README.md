@@ -1,1 +1,1 @@
-Projeto de site criado com html e css
+Projeto de site criado com html, css e um pouco de js.
