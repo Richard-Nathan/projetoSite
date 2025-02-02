@@ -54,7 +54,8 @@ h2 {
     text-indent: 10px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.247);
 }
-span{
+
+span {
     transform: translate(0, 8px);
 }
 
@@ -80,13 +81,17 @@ span{
     color: black;
     font-weight: bold;
     flex: 0 1 200px;
-    height: 40px;
+    height: 45px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 14px;
     text-align: center;
     width: 86px;
+}
+
+#hora {
+    width: 170px;
 }
 
 .navigation-Menu .item-Menu:hover {
@@ -104,7 +109,7 @@ span{
     flex-direction: column;
     margin: auto;
     max-width: 500px;
-    
+
 
 }
 
@@ -127,7 +132,7 @@ span{
 .secNatureza-cerejeira {
     background-color: #e28ca4;
     padding: 5px;
-    
+
 }
 
 .secNatureza-fuji {

@@ -1,4 +1,14 @@
+@media screen and (max-width:550px) {
+    #hora {
+        display: none;
+    }
+}
+
+
 @media screen and (min-width:501px) {
+
+
+
     .secNatureza-cerejeira {
         background: url(../imagens/bambooback.jpg) no-repeat center bottom;
     }
@@ -19,6 +29,7 @@
 }
 
 @media screen and (min-width: 1400px) {
+
 
     .secNatureza,
     .secCidade {
