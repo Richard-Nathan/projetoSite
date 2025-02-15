@@ -29,5 +29,5 @@ mediaQuery.addEventListener("change", verificarTamanho)
 function nada() {
     let nome = document.getElementById('inome').value
     alert(`Desculpe ${nome}, ainda não aprendi essa parte :)`)
-    return false
+   
 }
