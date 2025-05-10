@@ -55,8 +55,9 @@ h2 {
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.247);
 }
 
-span {
+.material-symbols-outlined {
     transform: translate(0, 8px);
+    
 }
 
 
@@ -151,6 +152,7 @@ span {
 
 .fujiMapa:hover {
     transform: translate(-30px, -400px) scale(1.5);
+    cursor: alias;
 
 }
 

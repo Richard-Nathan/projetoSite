@@ -8,10 +8,12 @@
     <style>
         body {
             background-color: black;
+            overflow: hidden;
         }
 
         h1 {
             color: white;
+            cursor: none;
             margin-top: 200px;
             text-align: center;
 
@@ -20,12 +22,23 @@
         p {
             color: black;
             text-align: center;
+            cursor: default;
+
+        }
+        
+        h1:hover{
+            opacity: 0;
+            transition: 0.5s ease-in;
+        }
+        .ninja:hover{
+            opacity: 0;
+            transition: 0.5s ease-in;
         }
     </style>
 </head>
 
 <body>
-    <h1>Não tem nada aqui</h1>
+    <h1>Não tem nada aqui   <span class="ninja">🥷</span></h1>
 
     <p>Ou será que tem?</p>
 
